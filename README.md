@@ -1,6 +1,6 @@
 Asteroids (Part 1)
 ==================
-In this assignment we will start to replicate the old video game Asteroids. You will write a program that has a space ship that can be controlled by a player. You will need to write a `Spaceship` class as well as a `Star` class for the background. Your `Spaceship` class will extend the `Floater` class, a class that represents all things that float in space. _Note: To complete this assignment you will be writing two classes `Spaceship` and `Star`. Do not modify the `Floater` class._ You may find the [Asteroids Part 1 slide presentation here](https://docs.google.com/presentation/d/1HfHQTei9qgkBEBhNqUKqmAc6g2V3x8FDprajTp5IZuE/edit#slide=id.p1) [or here](http://chandrunarayan.github.io/cpjava/final_projects/asteroid_presentations/Unit_9b_AsteroidsProject_Part1.pdf) helpful in completing this assignment.
+In this assignment we will start to replicate the old video game Asteroids. You will write a program that has a space ship that can be controlled by a player. You will need to write a `Spaceship` class as well as a `Star` class for the background. Your `Spaceship` class will extend the `Floater` class, a class that represents all things that float in space. _Note: To complete this assignment you will be writing two classes `Spaceship` and `Star`. Do not modify the `Floater` class._ You may find the [Asteroids Part 1 slide presentation here](https://docs.google.com/presentation/d/1HfHQTei9qgkBEBhNqUKqmAc6g2V3x8FDprajTp5IZuE/edit#slide=id.p1),   [or here](http://chandrunarayan.github.io/cpjava/final_projects/asteroid_presentations/Unit_9b_AsteroidsProject_Part1.pdf) helpful in completing this assignment.
 
 Suggested steps to complete this assignment
 -------------------------------------------
@@ -9,7 +9,7 @@ Suggested steps to complete this assignment
 1. Copy the code in `AsteroidsGame.pde` into your program.
 1. Open a new tab and name it `Spaceship.pde`. Copy the class definition from `Spaceship.pde` above. Do the same for `Floater.pde` and `Star.pde`.
 4. Write the `Spaceship` constructor. Make sure you initialize all 9 of the inherited `protected` member variables. 
-1. You may also find the [Asteroids Part 2 slide presentation here useful](https://docs.google.com/presentation/d/1pPeUvTAbIjtZYvfQIv54BDuunra8H6imO654amT6NI4/edit#slide=id.p1)  [or here](http://chandrunarayan.github.io/cpjava/final_projects/asteroid_presentations/Unit_9c_AsteroidsProject_Part2.pdf). 
+1. You may also find the [Asteroids Part 2 slide presentation here useful](https://docs.google.com/presentation/d/1pPeUvTAbIjtZYvfQIv54BDuunra8H6imO654amT6NI4/edit#slide=id.p1),  [or here](http://chandrunarayan.github.io/cpjava/final_projects/asteroid_presentations/Unit_9c_AsteroidsProject_Part2.pdf). 
 1. In addition, [This sample Spaceship program](https://chandrunarayan.github.io/sketches/AsteroidsVariableDemo/) helpful in understanding how the `protected Floater` variables affect the Spaceship's movement.
 5. At the top of `AsteroidsGame.pde`, declare a variable of type `Spaceship`
 6. Initialize the `Spaceship` as a new instance of the class
@@ -19,7 +19,7 @@ Suggested steps to complete this assignment
 10. Add code to the `draw()` in `AsteroidsGame.pde` to `move()` the Spaceship
 11. Finish the `Star` class in `Star.pde` 
 12. Finally, add code to `AsteroidsGame.pde` that declares and initializes an array of instances of the `Star` class to create a number of stars in random positions
-12. Note that for full credit, **you MUST include instructions on how to operate your Spaceship in the `index.html` file.** For an example look at slides 32 & 33 in the [Asteroids slide presentation here](https://docs.google.com/presentation/d/1HfHQTei9qgkBEBhNqUKqmAc6g2V3x8FDprajTp5IZuE/edit#slide=id.gac26ff81b9_2_0) [or here](https://chandrunarayan.github.io/cpjava/final_projects/asteroid_presentations/Unit_9b_AsteroidsProject_Part1.pdf)
+12. Note that for full credit, **you MUST include instructions on how to operate your Spaceship in the `index.html` file.** For an example look at slides 32 & 33 in the [Asteroids slide presentation here](https://docs.google.com/presentation/d/1HfHQTei9qgkBEBhNqUKqmAc6g2V3x8FDprajTp5IZuE/edit#slide=id.gac26ff81b9_2_0),  [or here](https://chandrunarayan.github.io/cpjava/final_projects/asteroid_presentations/Unit_9b_AsteroidsProject_Part1.pdf)
 
 These steps are only a suggestion. Your Asteroids game doesn't have to work or act like any other. Have fun and be creative.
 
